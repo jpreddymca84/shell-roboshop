@@ -3,7 +3,7 @@
 AMI=ami-0b4f379183e5706b9 #this keeps on changing
 SG_ID=sg-01e9e03ac5be0b4e6 #replace with your SG ID
 INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "web")
-ZONE_ID=Z03765222UATY6O3PVP8S # replace your zone ID
+ZONE_ID=Z0568442WQY6TAMHG0LH # replace your zone ID mandotary
 DOMAIN_NAME="jpdaws.cloud"
 
 for i in "${INSTANCES[@]}"
